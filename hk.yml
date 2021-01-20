@@ -27,7 +27,7 @@ proxy-providers:
       interval: 300
 
 proxies:
-  - {name: 🇭🇰 HK, server: hk.amdyes.cc, port: 443, type: vmess, uuid: d7b3cc99-a62e-4250-80fe-d01071a2167c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /894ae8cdf69c17/, ws-headers: {Host: hk.amdyes.cc}}
+  - {name: 🇭🇰 HK, server: hk.amdyes.cc, port: 443, type: vmess, uuid: 9207dbd3-a410-4bf5-8498-e6e98b1c2b12, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: hk.amdyes.cc}}
   - name: 🎵 自建
     server: 101.32.200.117
     port: 8848
