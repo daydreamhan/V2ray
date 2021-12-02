@@ -27,9 +27,9 @@ proxy-providers:
       interval: 300
 
 proxies:
-  - {name: 🇭🇰 HK, server: hk.a789.ml, port: 443, type: vmess, uuid: bec2f5c2-1622-47c8-a4ac-073007b6c59c, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /gtpdkvws, ws-headers: {Host: hk.a789.ml}}
+  - {name: 🇭🇰 HK, server: ny.a789.ml, port: 443, type: vmess, uuid: ec57d02c-e5bf-43b8-9959-588024aec95d, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /gtpdkvws, ws-headers: {Host: ny.a789.ml}}
   - name: 🎵 自建
-    server: 101.32.200.117
+    server: 107.175.196.12
     port: 8848
     type: http
 
