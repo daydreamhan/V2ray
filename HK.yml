@@ -27,7 +27,7 @@ proxy-providers:
       interval: 300
 
 proxies:
-  - {name: 🇭🇰 HK, server: ny.a789.ml, port: 443, type: vmess, uuid: a3bcf767-277f-4473-a3d4-fd76457eb15b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /kemxvws, ws-headers: {Host: ny.a789.ml}}
+  - {name: 🇭🇰 HK, server: ny.a789.ml, port: 443, type: VLESS, uuid: a3bcf767-277f-4473-a3d4-fd76457eb15b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /kemxvws, ws-headers: {Host: ny.a789.ml_VLESS_WS}}
   - name: 🎵 自建
     server: 107.175.196.12
     port: 8848
