@@ -27,7 +27,7 @@ proxy-providers:
       interval: 300
 
 proxies:
-  {name: NYC, server: ny.a789.ml, port: 443, type: vmess, uuid: 2db05927-9ed8-4368-88a4-07035d7dd10e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /alonevws, headers: {Host: ny.a789.ml}}, udp: true}}
+  - {name: NYC, server: ny.a789.ml, port: 443, type: vmess, uuid: 2db05927-9ed8-4368-88a4-07035d7dd10e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /alonevws, headers: {Host: ny.a789.ml}}, udp: true}}
   - name: 🎵 自建
     server: 107.175.196.12
     port: 8848
