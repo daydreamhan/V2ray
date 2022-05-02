@@ -27,11 +27,8 @@ proxy-providers:
       interval: 300
 
 proxies:
-  - {name: NYC, server: ny.a789.ml, port: 443, type: vmess, uuid: 2db05927-9ed8-4368-88a4-07035d7dd10e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /alonevws, headers: {Host: ny.a789.ml}}, udp: true}
-  - name: 🎵 自建
-    server: 107.175.196.12
-    port: 8848
-    type: http
+  - {name: 🎵 自建, server: ny.a789.ml, port: 443, type: vmess, uuid: 2db05927-9ed8-4368-88a4-07035d7dd10e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /alonevws, headers: {Host: ny.a789.ml}}, udp: true}
+
 
 proxy-groups:
   - name: 🚀 节点选择
@@ -39,13 +36,13 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 HK
+      - 🎵 自建
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 HK
+      - 🎵 自建
   - name: 🎸 网易云音乐
     use:
       - NeteaseMusic
@@ -71,7 +68,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 HK
+      
 
 
 
