@@ -27,7 +27,7 @@ proxy-providers:
       interval: 300
 
 proxies:
-  - {name: 🎵 自建, server: xianyu.pp.ua, port: 443, type: vmess, uuid: 3849de19-1f68-46bb-9786-a2be36cc501e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /65015fd8a3f2/, headers: {Host: xianyu.pp.ua}}, udp: true}
+  - {name: 🎵 自建, server: xianyu.pp.ua, port: 443, type: vmess, uuid: 3849de19-1f68-46bb-9786-a2be36cc501e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /65015fd8a3f2/, headers: {Host: xianyu.pp.ua}}}
 
 
 proxy-groups:
