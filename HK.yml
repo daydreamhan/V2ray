@@ -27,7 +27,7 @@ proxy-providers:
       interval: 300
 
 proxies:
-  - {name: 🎵 自建, server: ny.a789.ml, port: 443, type: vmess, uuid: 2db05927-9ed8-4368-88a4-07035d7dd10e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /alonevws, headers: {Host: ny.a789.ml}}, udp: true}
+  - {name: 🎵 自建, server: xianyu.pp.ua, port: 443, type: vmess, uuid: 3849de19-1f68-46bb-9786-a2be36cc501e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /65015fd8a3f2/, headers: {Host: xianyu.pp.ua}}, udp: true}
 
 
 proxy-groups:
